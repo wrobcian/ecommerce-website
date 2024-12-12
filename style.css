@@ -1,0 +1,34 @@
+.btn .fas, .btn .fab, .btn .far {
+    margin-left: 3px;
+  }
+
+  h6 {
+    line-height: 1.7;
+  }
+
+  footer.page-footer {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  body {
+    background:url("http://hdqwalls.com/download/lake-forest-mountains-illustration-4k-fv-1920x1080.jpg") center center no-repeat;
+    background-size:cover;
+  }
+
+  .btn.peach-gradient {
+    color: #fff ;
+  }
+  .map-container-section {
+    overflow:hidden;
+    padding-bottom:70%; 
+    position:relative;
+    height:0;
+  }
+.map-container-section iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }

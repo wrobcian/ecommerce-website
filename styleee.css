@@ -1,0 +1,40 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css";
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,600|Raleway";
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    background:url("http://hdqwalls.com/download/lake-forest-mountains-illustration-4k-fv-1920x1080.jpg") center center no-repeat;
+    background-size:cover;
+    min-height:100vh;
+    overflow:hidden;
+}
+.intro {
+  height: 100%;
+}
+
+@media (min-width: 550px) and (max-width: 750px) {
+  html,
+  body,
+  .intro {
+    height: 750px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  .intro {
+    height: 750px;
+  }
+}
+
+.mask-custom {
+  backdrop-filter: blur(15px);
+  background-color: rgba(255,255,255,.2);
+  border-radius: 3em;
+  border: 2px solid rgba(255,255,255,.1);
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+}
